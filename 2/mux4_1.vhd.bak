@@ -1,0 +1,59 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    04:22:13 08/20/2020 
+-- Design Name: 
+-- Module Name:    mux4_1 - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity mux4_1 is
+    Port ( i0 : in  STD_LOGIC_VECTOR (0 to 3);
+           i1 : in  STD_LOGIC_VECTOR (0 to 3);
+           i2 : in  STD_LOGIC_VECTOR (0 to 3);
+           i3 : in  STD_LOGIC_VECTOR (0 to 3);
+           s : in  STD_LOGIC_VECTOR (1 downto 0);
+           o : out  STD_LOGIC_VECTOR (0 to 3));
+end mux4_1;
+
+architecture structure of mux4_1 is
+	component mux4_1_1bit is
+		 Port ( s : in  STD_LOGIC_VECTOR (1 downto 0);
+				  i : in  STD_LOGIC_VECTOR (0 to 3);
+				  o : out  STD_LOGIC);
+	end component mux4_1_1bit;
+	signal m_in0, m_in1, m_in2, m_in3: std_logic_vector(0 to 3);
+begin
+m_in0 <= (i0(0) & i1(0) & i2(0) & i3(0));
+m_in1 <= (i0(1) & i1(1) & i2(1) & i3(1));
+m_in2 <= (i0(2) & i1(2) & i2(2) & i3(2));
+m_in3 <= (i0(3) & i1(3) & i2(3) & i3(3));
+mux0: mux4_1_1bit port map(s => s, i => m_in0, o => o(0));
+mux1: mux4_1_1bit port map(s => s, i => m_in1, o => o(1));
+mux2: mux4_1_1bit port map(s => s, i => m_in2, o => o(2));
+mux3: mux4_1_1bit port map(s => s, i => m_in3, o => o(3));
+
+end structure;
+

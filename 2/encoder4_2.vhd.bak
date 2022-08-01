@@ -1,0 +1,50 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    17:22:49 08/20/2020 
+-- Design Name: 
+-- Module Name:    encoder4_2 - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity encoder4_2 is
+    Port ( i : in  STD_LOGIC_VECTOR (3 downto 0);
+           o : out  STD_LOGIC_VECTOR (1 downto 0));
+end encoder4_2;
+
+architecture structure of encoder4_2 is
+	component or_gate is
+		port (
+			A, B: in std_logic;
+			C: out std_logic
+		);
+	end component or_gate;
+begin
+
+o1_g: or_gate port map(A => i(2), B => i(3), C => o(1));
+o0_g: or_gate port map(A => i(1), B => i(3), C => o(0));
+
+end structure;
+

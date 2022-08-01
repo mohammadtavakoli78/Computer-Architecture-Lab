@@ -1,0 +1,28 @@
+Command line:
+   CPU8bits_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62876
+
+Thu Sep 24 14:56:48 2020
+
+
+ Elaboration Time: 0.609375 sec
+
+ Current Memory Usage: 5189.3 Meg
+
+ Total Signals          : 1535
+ Total Nets             : 491
+ Total Signal Drivers   : 273
+ Total Blocks           : 384
+ Total Primitive Blocks : 244
+ Total Processes        : 268
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 992
+
+ Total Simulation Time: 0.671875 sec
+
+ Current Memory Usage: 5189.3 Meg
+
+Thu Sep 24 14:56:52 2020
+

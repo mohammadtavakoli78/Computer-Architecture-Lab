@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab-09" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/adder1 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/adder2 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/mu1 - array_multiplier - structure/carry_ripple_adder_instance0 - carry_ripple_adder - carry_ripple_adder_arc</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/mu1 - array_multiplier - structure/carry_ripple_adder_instance1 - carry_ripple_adder - carry_ripple_adder_arc</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/mu1 - array_multiplier - structure/carry_ripple_adder_instance2 - carry_ripple_adder - carry_ripple_adder_arc</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/mu1 - array_multiplier - structure/carry_select_adder_instance0 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/mu1 - array_multiplier - structure/carry_select_adder_instance1 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd/mu1 - array_multiplier - structure/carry_select_adder_instance2 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_ripple_adder_instance0 - carry_ripple_adder - carry_ripple_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_ripple_adder_instance0 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_ripple_adder_instance1 - carry_ripple_adder - carry_ripple_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_ripple_adder_instance1 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_ripple_adder_instance2 - carry_ripple_adder - carry_ripple_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_ripple_adder_instance2 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_select_adder_instance0 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_select_adder_instance1 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/array_multiplier - structure C:|XilinxProjects|Lab-09|array_multiplier.vhd/carry_select_adder_instance2 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/carry_ripple_adder - carry_ripple_adder_arc C:|XilinxProjects|Lab-09|carry_ripple_adder.vhd</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA1 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA10 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA11 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA12 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA13 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA14 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA15 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA16 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA2 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA3 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA4 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA5 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA6 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA7 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA8 - full_adder - structure</ClosedNode>
+         <ClosedNode>/carry_select_adder - carry_select_adder_arc C:|XilinxProjects|Lab-09|carry_select_adder.vhd/FA9 - full_adder - structure</ClosedNode>
+         <ClosedNode>/tb_adder - behavior C:|XilinxProjects|Lab-09|tb_adder.vhd/uut - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/tb_alu - behavior C:|XilinxProjects|Lab-09|tb_alu.vhd/uut - ALU - Behavioral/adder1 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/tb_alu - behavior C:|XilinxProjects|Lab-09|tb_alu.vhd/uut - ALU - Behavioral/adder2 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/tb_alu - behavior C:|XilinxProjects|Lab-09|tb_alu.vhd/uut - ALU - Behavioral/mu1 - array_multiplier - structure</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Lab-09</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000284000000020000000000000000000000000200000064ffffffff000000810000000300000002000002840000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Lab-09</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Synthesize - XST</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000008300000001000000000000004300000001000000000000005d0000000100000000000001c00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ALU.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c3000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral C:|XilinxProjects|Lab-09|ALU.vhd</ClosedNode>
+         <ClosedNode>/tb_adder - behavior C:|XilinxProjects|Lab-09|tb_adder.vhd/uut - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/tb_alu - behavior C:|XilinxProjects|Lab-09|tb_alu.vhd/uut - ALU - Behavioral/adder1 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/tb_alu - behavior C:|XilinxProjects|Lab-09|tb_alu.vhd/uut - ALU - Behavioral/adder2 - carry_select_adder - carry_select_adder_arc</ClosedNode>
+         <ClosedNode>/tb_alu - behavior C:|XilinxProjects|Lab-09|tb_alu.vhd/uut - ALU - Behavioral/mu1 - array_multiplier - structure</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - ALU - Behavioral (C:/XilinxProjects/Lab-09/ALU.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000298000000020000000000000000000000000200000064ffffffff000000810000000300000002000002980000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uut - ALU - Behavioral (C:/XilinxProjects/Lab-09/ALU.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+</Project>

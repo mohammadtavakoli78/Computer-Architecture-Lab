@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/XilinxProjects/Lab-09/carry_select_adder.xst" -ofn "C:/XilinxProjects/Lab-09/carry_select_adder.syr" 
+xst -intstyle ise -ifn "C:/XilinxProjects/Lab-09/carry_select_adder.xst" -ofn "C:/XilinxProjects/Lab-09/carry_select_adder.syr" 
+xst -intstyle ise -ifn "C:/XilinxProjects/Lab-09/carry_select_adder.xst" -ofn "C:/XilinxProjects/Lab-09/carry_select_adder.syr" 
+xst -intstyle ise -ifn "C:/XilinxProjects/Lab-09/carry_select_adder.xst" -ofn "C:/XilinxProjects/Lab-09/carry_select_adder.syr" 

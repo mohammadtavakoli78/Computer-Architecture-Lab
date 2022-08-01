@@ -1,0 +1,59 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date:    17:08:06 08/20/2020 
+-- Design Name: 
+-- Module Name:    comp_4bit - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity comp_4bit is
+    Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
+           B : in  STD_LOGIC_VECTOR (3 downto 0);
+           A_GT_B : out  STD_LOGIC;
+           A_EQ_B : out  STD_LOGIC;
+           A_LT_B : out  STD_LOGIC);
+end comp_4bit;
+
+architecture structure of comp_4bit is
+	component comp0 is
+		 Port ( A : in  STD_LOGIC;
+				  B : in  STD_LOGIC;
+				  GT : in  STD_LOGIC;
+				  EQ : in  STD_LOGIC;
+				  LT : in  STD_LOGIC;
+				  A_GT_B : out  STD_LOGIC;
+				  A_EQ_B : out  STD_LOGIC;
+				  A_LT_B : out  STD_LOGIC);
+	end component comp0;
+	signal gt_int, eq_int, lt_int: std_logic_vector(2 downto 0);
+begin
+cmp3: comp0 port map(A => A(3), B => B(3), GT => gt_int(2)	, EQ => eq_int(2)	, LT => lt_int(2)	, A_GT_B => A_GT_B	, A_EQ_B => A_EQ_B	, A_LT_B => A_LT_B	);
+cmp2: comp0 port map(A => A(2), B => B(2), GT => gt_int(1)	, EQ => eq_int(1)	, LT => lt_int(1)	, A_GT_B => gt_int(2), A_EQ_B => eq_int(2), A_LT_B => lt_int(2));
+cmp1: comp0 port map(A => A(1), B => B(1), GT => gt_int(0)	, EQ => eq_int(0)	, LT => lt_int(0)	, A_GT_B => gt_int(1), A_EQ_B => eq_int(1), A_LT_B => lt_int(1));
+cmp0: comp0 port map(A => A(0), B => B(0), GT => '0'			, EQ => '1'			, LT => '0'			, A_GT_B => gt_int(0), A_EQ_B => eq_int(0), A_LT_B => lt_int(0));
+
+end structure;
+

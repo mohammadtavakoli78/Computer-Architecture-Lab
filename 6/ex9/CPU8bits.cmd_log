@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/vhdl/ex9/CPU8bits.xst" -ofn "D:/vhdl/ex9/CPU8bits.syr" 
+netgen -intstyle ise -ar Structure -tm CPU8bits -w -dir netgen/synthesis -ofmt vhdl -sim CPU8bits.ngc CPU8bits_synthesis.vhd 
+xst -intstyle ise -ifn "D:/vhdl/ex9/CPU8bits.xst" -ofn "D:/vhdl/ex9/CPU8bits.syr" 
+netgen -intstyle ise -ar Structure -tm CPU8bits -w -dir netgen/synthesis -ofmt vhdl -sim CPU8bits.ngc CPU8bits_synthesis.vhd 
+xst -intstyle ise -ifn "D:/vhdl/ex9/CPU8bits.xst" -ofn "D:/vhdl/ex9/CPU8bits.syr" 
+netgen -intstyle ise -ar Structure -tm CPU8bits -w -dir netgen/synthesis -ofmt vhdl -sim CPU8bits.ngc CPU8bits_synthesis.vhd 
+xst -intstyle ise -ifn "D:/vhdl/ex9/CPU8bits.xst" -ofn "D:/vhdl/ex9/CPU8bits.syr" 
+netgen -intstyle ise -ar Structure -tm CPU8bits -w -dir netgen/synthesis -ofmt vhdl -sim CPU8bits.ngc CPU8bits_synthesis.vhd 
+xst -intstyle ise -ifn "D:/vhdl/ex9/CPU8bits.xst" -ofn "D:/vhdl/ex9/CPU8bits.syr" 
+netgen -intstyle ise -ar Structure -tm CPU8bits -w -dir netgen/synthesis -ofmt vhdl -sim CPU8bits.ngc CPU8bits_synthesis.vhd 
+xst -intstyle ise -ifn "D:/vhdl/ex9/CPU8bits.xst" -ofn "D:/vhdl/ex9/CPU8bits.syr" 
+netgen -intstyle ise -ar Structure -tm CPU8bits -w -dir netgen/synthesis -ofmt vhdl -sim CPU8bits.ngc CPU8bits_synthesis.vhd 

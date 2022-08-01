@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/XilinxProjects/Lab-09/tb_cpu_isim_beh.exe -prj C:/XilinxProjects/Lab-09/tb_cpu_beh.prj work.tb_cpu 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/XilinxProjects/Lab-09/xor_gate.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/and_gate.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/or_gate.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/half_adder.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/full_adder.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/mux2.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/carry_ripple_adder.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/Divider.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/carry_select_adder.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/array_multiplier.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/RAM.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/ALU.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/CPU8bits.vhd" into library work
+Parsing VHDL file "C:/XilinxProjects/Lab-09/tb_cpu.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture gatelevel of entity xor_gate [xor_gate_default]
+Compiling architecture gatelevel of entity and_gate [and_gate_default]
+Compiling architecture structure of entity half_adder [half_adder_default]
+Compiling architecture gatelevel of entity or_gate [or_gate_default]
+Compiling architecture structure of entity full_adder [full_adder_default]
+Compiling architecture mux2_arc of entity mux2 [mux2_default]
+Compiling architecture carry_select_adder_arc of entity carry_select_adder [carry_select_adder_default]
+Compiling architecture carry_ripple_adder_arc of entity carry_ripple_adder [carry_ripple_adder_default]
+Compiling architecture structure of entity array_multiplier [array_multiplier_default]
+Compiling architecture behavioral of entity Divider [divider_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity CPU8bits [cpu8bits_default]
+Compiling architecture behavior of entity tb_cpu
+Time Resolution for simulation is 1ps.
+Compiled 32 VHDL Units
+Built simulation executable C:/XilinxProjects/Lab-09/tb_cpu_isim_beh.exe
+Fuse Memory Usage: 38180 KB
+Fuse CPU Usage: 796 ms

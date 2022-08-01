@@ -1,0 +1,6 @@
+V3 3
+FL D:/vhdl/ex9/CPU8bits.vhd 2020/09/23.14:59:00 P.20131013
+EN work/CPU8bits 1600861599 FL D:/vhdl/ex9/CPU8bits.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/CPU8bits/CPU8bits_arch 1600861600 \
+      FL D:/vhdl/ex9/CPU8bits.vhd EN work/CPU8bits 1600861599
