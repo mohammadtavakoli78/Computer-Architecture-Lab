@@ -1,1 +1,1 @@
-# Computer-Architecture-Lab
+# <p align="center">Computer-Architecture Lab</p>
